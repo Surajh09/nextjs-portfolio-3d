@@ -68,7 +68,7 @@ export default function Navbar(): JSX.Element {
                 {/* <Banner /> */}
                 <div className='flex flex-row items-center justify-between p-4 border-b-2 border-b-gray-500 safe-x-padding'>
                     <Link className='z-50' href="/" onClick={closeMenu} prefetch={false}>
-                        <h1 className="animate-text bg-gradient-to-r p-2 from-primary border border-md rounded-full to-secondary bg-clip-text text-transparent text-2xl font-black">
+                        <h1 className="animate-text bg-gradient-to-r p-2 from-primary to-secondary border border-md rounded-full bg-clip-text text-transparent text-2xl font-black">
                             SH
                         </h1>
                     </Link>
