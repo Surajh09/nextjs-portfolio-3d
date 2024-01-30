@@ -19,7 +19,7 @@ export default function notFound() {
             <div className="text-lg mb-8">
                 This page is either under development or not found
             </div>
-            <a href="#" className="border border-white rounded p-4">
+            <a href="/" className="border border-white rounded p-4">
                 Go Home
             </a>
         </div>
