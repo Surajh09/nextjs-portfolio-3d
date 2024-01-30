@@ -1,7 +1,7 @@
 import { Title, Text, Button, Container, Group } from "@mantine/core";
 import classes from "./not-found.module.css";
 
-export function NotFoundTitle() {
+export default function NotFoundTitle() {
   return (
     <Container className={classes.root}>
       <div className={classes.label}>404</div>
