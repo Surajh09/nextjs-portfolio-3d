@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${poppins.variable} lg:overflow-x-hidden`}>
-      <body className="bg-gray-900 text-white">
+      <body>
         <Navbar />
         {children}
       </body>

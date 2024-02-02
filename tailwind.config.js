@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        '404bg': "url('/public/404.gif')",
+      },
       animation: {
         text: 'text 5s ease infinite',
       },

@@ -1,29 +1,20 @@
-import React from 'react'
+import React from 'react';
 
 export default function notFound() {
-    
     return (
-    <div className="bg-gradient-to-r from-primary to-secondary text-white min-h-screen flex items-center">
-        <div className="container mx-auto p-4 flex flex-wrap items-center">
-        <div className="w-full md:w-5/12 text-center p-4">
-            <img
-                src="https://themichailov.com/img/not-found.svg"
-                alt="Not Found"
-            />
-        </div>
-        <div className="w-full md:w-7/12 text-center md:text-left p-4">
-            <div className="text-6xl font-medium">404</div>
-            <div className="text-xl md:text-3xl font-medium mb-4">
-                You Entered Secrete Page.
+        <div className='text-center h-screen bg-gray-900'>
+            <h1 className='mb-4 text-6xl font-semibold text-blue-600'>404</h1>
+            <p className="mb-4 text-xl text-gray-400">
+                Looks like you found a sceret page!!
+            </p>
+            <p className="mb-4 text-lg text-gray-400">
+                This page is either Under Development or Not Found
+            </p>
+            <div className='animate-bounce'>
+                <svg className="mx-auto h-16 w-16 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 1919 2-9-18-9 18 9-2zm0 0v-8"></path>
+                </svg>
             </div>
-            <div className="text-lg mb-8">
-                This page is either under development or not found
-            </div>
-            <a href="/" className="border border-white rounded p-4">
-                Go Home
-            </a>
         </div>
-        </div>
-    </div>
     );
 }
