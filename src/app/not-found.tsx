@@ -1,20 +1,37 @@
-import React from 'react';
+import React from "react";
 
-export default function notFound() {
-    return (
-        <div className='text-center h-screen bg-gray-900'>
-            <h1 className='mb-4 text-6xl font-semibold text-blue-600'>404</h1>
-            <p className="mb-4 text-xl text-gray-400">
-                Looks like you found a sceret page!!
-            </p>
-            <p className="mb-4 text-lg text-gray-400">
-                This page is either Under Development or Not Found
-            </p>
-            <div className='animate-bounce'>
-                <svg className="mx-auto h-16 w-16 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 1919 2-9-18-9 18 9-2zm0 0v-8"></path>
-                </svg>
+const Error = () => {
+  return (
+    <>
+      <section className="relative z-10 h-screen bg-gray-900 py-[120px]">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex">
+            <div className="w-full px-4">
+              <div className="mx-auto max-w-[400px] text-center">
+                <h2 className="mb-2 text-[50px] font-bold leading-none text-white sm:text-[80px] md:text-[100px]">
+                  404
+                </h2>
+                <h4 className="mb-3 text-[22px] font-semibold leading-tight text-white">
+                  Shh! You Found a Sceret Page!
+                </h4>
+                <p className="mb-8 text-lg text-white">
+                  This Page Is Either Under Development of Not Found.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-    );
-}
+        <div className="absolute left-0 top-0 -z-10 flex h-full w-full items-center justify-between space-x-5 md:space-x-8 lg:space-x-14">
+          <div className="h-full w-1/3 bg-gradient-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
+          <div className="flex h-full w-1/3">
+            <div className="h-full w-1/2 bg-gradient-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
+            <div className="h-full w-1/2 bg-gradient-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
+          </div>
+          <div className="h-full w-1/3 bg-gradient-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Error;
