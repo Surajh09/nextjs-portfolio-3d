@@ -64,7 +64,7 @@ export default function Navbar(): JSX.Element {
 
     return (
         <>
-            <nav ref={navbarRef} className={`top-0 z-50 w-screen bg-gray-900 fixed md:relative safe-layout`}>
+            <nav ref={navbarRef} className={`top-0 z-50 w-full bg-gray-900 fixed md:relative safe-layout`}>
                 {/* <Banner /> */}
                 <div className='flex flex-row items-center justify-between p-4 border-b-2 border-b-gray-500 safe-x-padding'>
                     <Link className='z-50' href="/" onClick={closeMenu} prefetch={false}>
