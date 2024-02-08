@@ -9,7 +9,7 @@ import SectionExperince from "./SectionExperince";
 export default function Home() {
   return (
     <div className="bg-gray-900 text-white">
-      <div className="safe-layout sm:py-20 md:py-12 ">
+      <div className="safe-layout py-20 ">
         <SectionHero />
         <SectionTechnologyStack />
         <SectionMyLatestProject />
