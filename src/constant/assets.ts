@@ -9,7 +9,7 @@ export const assets = {
     },
     letsConnect: {
       avatarBigSmile: require("../assets/images/home/letsConnect/avatar-smile.png"),
-      x: require("../assets/images/home/letsConnect/X.webp"),
+      x: require("../assets/images/home/letsConnect/x.webp"),
       discord: require("../assets/images/home/letsConnect/discord.webp"),
       github: require("../assets/images/home/letsConnect/github.webp"),
       gmail: require("../assets/images/home/letsConnect/gmail.webp"),
